@@ -1,0 +1,31 @@
+.sec__main {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  flex-wrap: wrap;
+}
+
+.sec__image {
+  height: 40vh;
+  margin-right: 3rem;
+  border-bottom: 2px solid rgb(187, 172, 37);
+  padding-bottom: 2rem;
+}
+
+.sec__description {
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  inline-size: 50rem;
+  color: rgb(209, 212, 214);
+}
+
+h1 {
+  padding-left: 1rem;
+  border-left: 5px solid rgb(177, 163, 38);
+  font-weight: 100;
+}
+
+.sec__highlight {
+  font-size: 6.6rem;
+  color: rgb(8, 8, 5);
+}

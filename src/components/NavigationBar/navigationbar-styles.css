@@ -20,7 +20,7 @@ li {
   border-bottom: 3px solid rgb(187, 172, 37);
 }
 
-img {
+.nav__logo {
   height: 5rem;
   width: 5rem;
   position: fixed;

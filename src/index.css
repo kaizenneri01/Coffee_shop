@@ -4,5 +4,5 @@
 
 body {
   margin: 0;
-  background: rgb(41, 37, 33);
+  background-image: linear-gradient(40deg, #242222, #141313);
 }
