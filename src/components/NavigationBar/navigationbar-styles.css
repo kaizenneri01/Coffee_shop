@@ -1,0 +1,30 @@
+.nav__navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+li {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  color: rgb(209, 212, 214);
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-bottom: 3px solid rgb(187, 172, 37);
+}
+
+img {
+  height: 5rem;
+  width: 5rem;
+  position: fixed;
+  margin: 20px 15px 15px 20px;
+  left: 0;
+  display: inline;
+}
