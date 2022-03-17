@@ -3,6 +3,7 @@
   justify-content: center;
   padding-top: 10rem;
   flex-wrap: wrap;
+  margin-bottom: 15rem;
 }
 
 .sec__image {
@@ -19,7 +20,7 @@
   color: rgb(209, 212, 214);
 }
 
-h1 {
+.sec__h1 {
   padding-left: 1rem;
   border-left: 5px solid rgb(177, 163, 38);
   font-weight: 100;

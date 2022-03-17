@@ -1,7 +1,7 @@
 import React from "react";
-import "./sectionone-styles.css";
+import "./homepage-styles.css";
 
-const SectionOne = () => {
+const HomePage = () => {
   return (
     <div className="sec__main">
       <img
@@ -10,7 +10,7 @@ const SectionOne = () => {
         alt="coffee"
       />
       <div className="sec__description">
-        <h1>
+        <h1 className="sec__h1">
           <span className="sec__highlight">
             <strong>BLACK COFFEE </strong>
           </span>
@@ -22,4 +22,4 @@ const SectionOne = () => {
   );
 };
 
-export default SectionOne;
+export default HomePage;

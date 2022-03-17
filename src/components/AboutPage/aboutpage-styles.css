@@ -1,0 +1,21 @@
+.about__title {
+  display: flex;
+  justify-content: center;
+}
+
+.about__title2 {
+  padding-bottom: 1rem;
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10rem;
+  border-bottom: 4px solid rgb(187, 172, 37);
+  width: 80vw;
+  text-align: center;
+}
+
+.about__cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

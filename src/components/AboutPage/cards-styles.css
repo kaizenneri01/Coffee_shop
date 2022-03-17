@@ -1,0 +1,9 @@
+.cards__cards {
+  height: 15rem;
+  width: 15rem;
+  background-color: rgb(83, 86, 88);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 3px rgb(187, 172, 37) solid;
+  margin-bottom: 2rem;
+}

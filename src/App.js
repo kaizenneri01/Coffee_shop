@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import HomePage from "./components/HomePage/HomePage";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
-import SectionOne from "./components/SectionOne/SectionOne";
+import AboutPage from "./components/AboutPage/AboutPage";
 
 function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <SectionOne />
+      <HomePage />
+      <AboutPage />
     </div>
   );
 }
