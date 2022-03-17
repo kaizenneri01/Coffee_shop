@@ -7,9 +7,15 @@ const NavigationBar = () => {
     <div className="nav__navbar">
       <img className="nav__logo" src={Logo} alt="coffee" />
       <ul className="nav__list">
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>PRODUCT</li>
+        <li>
+          <a href="#">HOME</a>
+        </li>
+        <li>
+          <a href="#about">ABOUT</a>
+        </li>
+        <li>
+          <a href="#">PRODUCT</a>
+        </li>
       </ul>
     </div>
   );

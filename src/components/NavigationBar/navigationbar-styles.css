@@ -18,13 +18,18 @@ li {
   font-size: 0.9rem;
   font-weight: bold;
   border-bottom: 3px solid rgb(187, 172, 37);
+  cursor: pointer;
 }
 
 .nav__logo {
+  position: absolute;
   height: 5rem;
   width: 5rem;
-  position: fixed;
   margin: 20px 15px 15px 20px;
   left: 0;
-  display: inline;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
 }
