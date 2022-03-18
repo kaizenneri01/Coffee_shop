@@ -3,6 +3,7 @@ import "./App.css";
 import HomePage from "./components/HomePage/HomePage";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import AboutPage from "./components/AboutPage/AboutPage";
+import Product from "./components/Product/Product";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationBar />
       <HomePage />
       <AboutPage />
+      <Product />
     </div>
   );
 }
