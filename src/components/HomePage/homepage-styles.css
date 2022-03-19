@@ -7,6 +7,8 @@
 }
 
 .sec__image {
+  display: flex;
+  align-self: center;
   height: 40vh;
   margin-right: 3rem;
   border-bottom: 2px solid rgb(187, 172, 37);
@@ -28,5 +30,5 @@
 
 .sec__highlight {
   font-size: 6.6rem;
-  color: rgb(8, 8, 5);
+  color: rgb(187, 187, 34);
 }

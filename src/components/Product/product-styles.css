@@ -19,6 +19,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 15rem;
 }
 
 .product__highlight {
