@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage/HomePage";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import AboutPage from "./components/AboutPage/AboutPage";
 import Product from "./components/Product/Product";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HomePage />
       <AboutPage />
       <Product />
+      <ContactUs />
     </div>
   );
 }

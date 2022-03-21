@@ -35,7 +35,7 @@
 }
 
 .product__details {
-  color: aliceblue;
+  color: rgb(209, 212, 214);
   font-size: 1.5rem;
   overflow-wrap: break-word;
   inline-size: 41rem;

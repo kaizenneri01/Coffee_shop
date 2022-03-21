@@ -1,0 +1,68 @@
+.contact__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact__title {
+  font-size: 5rem;
+  color: aliceblue;
+  border-bottom: 4px yellow solid;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact__box {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__form {
+  height: 30rem;
+  width: 30rem;
+  background-color: rgb(54, 50, 50);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: rgb(184, 156, 32);
+  font-weight: bold;
+}
+
+input {
+  margin-left: 1rem;
+  display: block;
+  flex-direction: column;
+  background-color: rgb(43, 40, 40);
+  width: 20rem;
+  color: rgb(217, 224, 230);
+  border: none;
+  border-bottom: 2px rgb(218, 198, 19) solid;
+  height: 2rem;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.contact__textbox {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  margin-top: 1rem;
+  height: 10rem;
+  background-color: rgb(43, 40, 40);
+  width: 20rem;
+  color: rgb(217, 224, 230);
+  border: none;
+  border-bottom: 2px rgb(218, 198, 19) solid;
+  font-weight: lighter;
+}
