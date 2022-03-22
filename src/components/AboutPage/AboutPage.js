@@ -3,7 +3,7 @@ import "./aboutpage-styles.css";
 import Cards from "../Cards/Cards";
 
 const AboutPage = () => {
-  const [info, setInfo] = useState([
+  const [info] = useState([
     {
       icon: "https://cdn-icons-png.flaticon.com/512/92/92135.png",
       description:
